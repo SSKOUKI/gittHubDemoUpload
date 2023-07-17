@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DA05362A65C42E005B28CD /* gittHubDemoUploadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA05352A65C42E005B28CD /* gittHubDemoUploadApp.swift */; };
+		18DA05382A65C42E005B28CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA05372A65C42E005B28CD /* ContentView.swift */; };
+		18DA053A2A65C431005B28CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA05392A65C431005B28CD /* Assets.xcassets */; };
+		18DA053D2A65C431005B28CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA053C2A65C431005B28CD /* Preview Assets.xcassets */; };
+		18DA05472A65C431005B28CD /* gittHubDemoUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA05462A65C431005B28CD /* gittHubDemoUploadTests.swift */; };
+		18DA05512A65C432005B28CD /* gittHubDemoUploadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA05502A65C432005B28CD /* gittHubDemoUploadUITests.swift */; };
+		18DA05532A65C432005B28CD /* gittHubDemoUploadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA05522A65C432005B28CD /* gittHubDemoUploadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DA05432A65C431005B28CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DA052A2A65C42D005B28CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DA05312A65C42E005B28CD;
+			remoteInfo = gittHubDemoUpload;
+		};
+		18DA054D2A65C432005B28CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DA052A2A65C42D005B28CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DA05312A65C42E005B28CD;
+			remoteInfo = gittHubDemoUpload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DA05322A65C42E005B28CD /* gittHubDemoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gittHubDemoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA05352A65C42E005B28CD /* gittHubDemoUploadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittHubDemoUploadApp.swift; sourceTree = "<group>"; };
+		18DA05372A65C42E005B28CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18DA05392A65C431005B28CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DA053C2A65C431005B28CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18DA05422A65C431005B28CD /* gittHubDemoUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittHubDemoUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA05462A65C431005B28CD /* gittHubDemoUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittHubDemoUploadTests.swift; sourceTree = "<group>"; };
+		18DA054C2A65C432005B28CD /* gittHubDemoUploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gittHubDemoUploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DA05502A65C432005B28CD /* gittHubDemoUploadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittHubDemoUploadUITests.swift; sourceTree = "<group>"; };
+		18DA05522A65C432005B28CD /* gittHubDemoUploadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gittHubDemoUploadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DA052F2A65C42E005B28CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA053F2A65C431005B28CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA05492A65C432005B28CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DA05292A65C42D005B28CD = {
+			isa = PBXGroup;
+			children = (
+				18DA05342A65C42E005B28CD /* gittHubDemoUpload */,
+				18DA05452A65C431005B28CD /* gittHubDemoUploadTests */,
+				18DA054F2A65C432005B28CD /* gittHubDemoUploadUITests */,
+				18DA05332A65C42E005B28CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DA05332A65C42E005B28CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DA05322A65C42E005B28CD /* gittHubDemoUpload.app */,
+				18DA05422A65C431005B28CD /* gittHubDemoUploadTests.xctest */,
+				18DA054C2A65C432005B28CD /* gittHubDemoUploadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DA05342A65C42E005B28CD /* gittHubDemoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				18DA05352A65C42E005B28CD /* gittHubDemoUploadApp.swift */,
+				18DA05372A65C42E005B28CD /* ContentView.swift */,
+				18DA05392A65C431005B28CD /* Assets.xcassets */,
+				18DA053B2A65C431005B28CD /* Preview Content */,
+			);
+			path = gittHubDemoUpload;
+			sourceTree = "<group>";
+		};
+		18DA053B2A65C431005B28CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18DA053C2A65C431005B28CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18DA05452A65C431005B28CD /* gittHubDemoUploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DA05462A65C431005B28CD /* gittHubDemoUploadTests.swift */,
+			);
+			path = gittHubDemoUploadTests;
+			sourceTree = "<group>";
+		};
+		18DA054F2A65C432005B28CD /* gittHubDemoUploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DA05502A65C432005B28CD /* gittHubDemoUploadUITests.swift */,
+				18DA05522A65C432005B28CD /* gittHubDemoUploadUITestsLaunchTests.swift */,
+			);
+			path = gittHubDemoUploadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DA05312A65C42E005B28CD /* gittHubDemoUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA05562A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUpload" */;
+			buildPhases = (
+				18DA052E2A65C42E005B28CD /* Sources */,
+				18DA052F2A65C42E005B28CD /* Frameworks */,
+				18DA05302A65C42E005B28CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gittHubDemoUpload;
+			productName = gittHubDemoUpload;
+			productReference = 18DA05322A65C42E005B28CD /* gittHubDemoUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DA05412A65C431005B28CD /* gittHubDemoUploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA05592A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUploadTests" */;
+			buildPhases = (
+				18DA053E2A65C431005B28CD /* Sources */,
+				18DA053F2A65C431005B28CD /* Frameworks */,
+				18DA05402A65C431005B28CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DA05442A65C431005B28CD /* PBXTargetDependency */,
+			);
+			name = gittHubDemoUploadTests;
+			productName = gittHubDemoUploadTests;
+			productReference = 18DA05422A65C431005B28CD /* gittHubDemoUploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DA054B2A65C432005B28CD /* gittHubDemoUploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DA055C2A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUploadUITests" */;
+			buildPhases = (
+				18DA05482A65C432005B28CD /* Sources */,
+				18DA05492A65C432005B28CD /* Frameworks */,
+				18DA054A2A65C432005B28CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DA054E2A65C432005B28CD /* PBXTargetDependency */,
+			);
+			name = gittHubDemoUploadUITests;
+			productName = gittHubDemoUploadUITests;
+			productReference = 18DA054C2A65C432005B28CD /* gittHubDemoUploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DA052A2A65C42D005B28CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					18DA05312A65C42E005B28CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18DA05412A65C431005B28CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18DA05312A65C42E005B28CD;
+					};
+					18DA054B2A65C432005B28CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 18DA05312A65C42E005B28CD;
+					};
+				};
+			};
+			buildConfigurationList = 18DA052D2A65C42D005B28CD /* Build configuration list for PBXProject "gittHubDemoUpload" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DA05292A65C42D005B28CD;
+			productRefGroup = 18DA05332A65C42E005B28CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DA05312A65C42E005B28CD /* gittHubDemoUpload */,
+				18DA05412A65C431005B28CD /* gittHubDemoUploadTests */,
+				18DA054B2A65C432005B28CD /* gittHubDemoUploadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DA05302A65C42E005B28CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA053D2A65C431005B28CD /* Preview Assets.xcassets in Resources */,
+				18DA053A2A65C431005B28CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA05402A65C431005B28CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA054A2A65C432005B28CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DA052E2A65C42E005B28CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA05382A65C42E005B28CD /* ContentView.swift in Sources */,
+				18DA05362A65C42E005B28CD /* gittHubDemoUploadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA053E2A65C431005B28CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA05472A65C431005B28CD /* gittHubDemoUploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DA05482A65C432005B28CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DA05532A65C432005B28CD /* gittHubDemoUploadUITestsLaunchTests.swift in Sources */,
+				18DA05512A65C432005B28CD /* gittHubDemoUploadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DA05442A65C431005B28CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DA05312A65C42E005B28CD /* gittHubDemoUpload */;
+			targetProxy = 18DA05432A65C431005B28CD /* PBXContainerItemProxy */;
+		};
+		18DA054E2A65C432005B28CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DA05312A65C42E005B28CD /* gittHubDemoUpload */;
+			targetProxy = 18DA054D2A65C432005B28CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18DA05542A65C432005B28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DA05552A65C432005B28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DA05572A65C432005B28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gittHubDemoUpload/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUpload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DA05582A65C432005B28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gittHubDemoUpload/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUpload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DA055A2A65C432005B28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittHubDemoUpload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gittHubDemoUpload";
+			};
+			name = Debug;
+		};
+		18DA055B2A65C432005B28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gittHubDemoUpload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gittHubDemoUpload";
+			};
+			name = Release;
+		};
+		18DA055D2A65C432005B28CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gittHubDemoUpload;
+			};
+			name = Debug;
+		};
+		18DA055E2A65C432005B28CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Samia-Kouki.gittHubDemoUploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gittHubDemoUpload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DA052D2A65C42D005B28CD /* Build configuration list for PBXProject "gittHubDemoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA05542A65C432005B28CD /* Debug */,
+				18DA05552A65C432005B28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA05562A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA05572A65C432005B28CD /* Debug */,
+				18DA05582A65C432005B28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA05592A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA055A2A65C432005B28CD /* Debug */,
+				18DA055B2A65C432005B28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DA055C2A65C432005B28CD /* Build configuration list for PBXNativeTarget "gittHubDemoUploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DA055D2A65C432005B28CD /* Debug */,
+				18DA055E2A65C432005B28CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DA052A2A65C42D005B28CD /* Project object */;
+}
